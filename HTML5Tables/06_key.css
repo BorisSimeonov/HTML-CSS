@@ -1,0 +1,29 @@
+table, td{
+    font-size: 26px;
+}
+table.mainTable{
+    width: 450px;
+    align-items: center;
+    border: 3px double black;
+}
+table.insideTable{
+    width: 100%;
+}
+td{
+    padding: 5px;
+    margin: 2px;
+}
+td.buttons{
+    background-image: url(btnBack.jpg);
+    background-position: center center;;
+    background-repeat: no-repeat;
+    border: 2px silver solid;
+    border-radius: 5px;
+}
+td{
+    height: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

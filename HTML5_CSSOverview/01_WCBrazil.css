@@ -1,0 +1,106 @@
+#box{
+    width: 1200px;
+    padding: 10px;
+    background-color: limegreen;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+table{
+    width: 100%;
+    height: 300px;
+    border-spacing: 0px;
+}
+td, th{
+    border: thin solid black;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#header{
+    font-size: 26px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.TopLeft{
+    border-top-left-radius: 10px;
+    background-color: gold;
+    width: 15%;
+}
+.TopRight{
+    border-top-right-radius: 10px;
+    background-color: gold;
+    width: 45%;
+}
+.head{
+    background-color: gold;
+}
+.brightRows td{
+    font-size: 18px;
+    background-color: white;
+}
+.darkRows{
+    font-size: 18px;
+    background-color: silver;
+}
+.firstTeam{
+    text-align: right;
+}
+.secTeam{
+    text-align: left;
+}
+.result, .group{
+    text-align: center;
+}
+.image div{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 100%;
+    color: white;
+    box-shadow: 3px 3px 2px #888888;
+}
+select{
+    height: 25px;
+    width: 30px;
+}
+.redOpt{
+    color: red;
+}
+.greenOpt{
+    color: green;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+#brazil p:after{
+    content: url('images/brlarge.gif');
+}
+#Mexico p:before{
+    content: url('images/Mexico.jpg');
+}
+#Spain p:after{
+    content: url('images/Spain.jpg');
+}
+#Neth p:before{
+    content: url("images/Netherlands.gif");
+}
+#Italy p:after{
+    content: url("images/Italy.gif");
+}
+#Engl p:before{
+    content: url("images/England.png");
+}
+#Arg p:after{
+    content: url("images/Argentina.jpg");
+}
+#Bosnia p:before{
+    content: url("images/Bosnia.jpg");
+}
+#Port p:before{
+    content: url("images/Pl.gif");
+}
+#Germany p:after{
+    content: url("images/Germany.gif");
+}

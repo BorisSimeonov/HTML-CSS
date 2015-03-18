@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 4px;
+    height: 820px;
+}
+#FormLayer{
+    background-image: url("images/formBackground.jpg");
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 770px;
+    border-radius: 5px;
+    padding: 25px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+
+.box input, .textBox input, .cardTInput input{
+    float: right;
+    margin-right: 20%;
+    width: 220px;
+    border-radius: 2px;
+    border-color: transparent;
+    color: silver;
+    height: 18px;
+}
+.box input:focus, .textBox input:focus, .cardTInput input:focus{
+    color: black;
+}
+.box section, .textBox section{
+    padding: 7px;
+    background-color: rgba(255, 255, 255, 0.31);
+    border: 2px solid rgba(255, 255, 255, 0.51);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+.box section{
+    height: 22px;
+}
+
+.textBox section div{
+    vertical-align: top;
+    display: inline-block;
+    float: left;
+}
+
+.textArea{
+    height: 100px;
+}
+.textArea textarea{
+    float: right;
+    margin-right: 20%;
+    width: 220px;
+    resize: none;
+}
+
+.cardBox section{
+    padding: 7px;
+    background-color: rgba(255, 255, 255, 0.31);
+    border: 2px solid rgba(255, 255, 255, 0.51);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+#cardType label{
+    margin-right: 24px;
+}
+.cardBox div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button{
+    padding: 4px;
+    width: 110px;
+    background-color: #04152f;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+button:hover{
+    border: 2px solid aqua;
+    color: aqua;
+    font-size: 18px;
+}
+button:active{
+    border: 2px solid black;
+    color: black;
+    background-color: aqua;
+    font-size: 18px;
+}
+.btnSection{
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Website Header</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        table{
+            background-color: #234465;
+            width: 100%;
+            height: 100px;
+        }
+        td, tr, table, li{
+            color: white;
+        }
+        #logoTD{
+            width: 40%;
+        }
+        input{
+            background: url(search.jpg) no-repeat scroll 1px 2px;
+            background-color: white;
+            width: 220px;
+            height: 20px;
+            padding-left: 10%;
+            border-radius: 5px;
+        }
+        li.subList{
+            text-align: left;
+            width: 250px;
+            margin-left: -41px;
+        }
+        li.mainList{
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+        }
+
+        #menu,
+        #menu ul {
+            list-style: none;
+            margin: 0px;
+            margin-right: 30px;
+            margin: 0px;
+        }
+        #menu {
+            float: left;
+        }
+        #menu > li {
+            float: left;
+        }
+        #menu li a {
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #menu ul {
+            position: absolute;
+            display: none;
+        }
+        #menu ul li a {
+            width: 80px;
+        }
+
+
+        #menu li:hover ul {
+            display: block;
+        }
+
+
+        #menu {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 14px;
+        }
+        #menu > li > a {
+            color: white;
+            font-weight: bold;
+        }
+        #menu > li:hover > a {
+            background:deepskyblue;
+            width: 100%;
+            color: white;
+        }
+        /* Submenu
+        ------------------------------------------*/
+        #menu ul {
+            background: #234465;
+        }
+        #menu ul li a {
+            color: white;
+            padding-left: 0%;
+            width: auto;
+            text-align: center;
+        }
+        #menu ul li:hover a {
+            background: deepskyblue;
+        }
+        #menu ul li:active a {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td id="logoTD" align="center"><a href="https://softuni.bg"><image src="bigLogo.png"></image></a></td>
+            <td>
+                <table>
+                    <tr>
+                        <td align="right" width="60%"><b>USER NAME</b></td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr id="menuRow">
+                        <td colspan="2">
+                            <ul id="menu">
+                                <li class="mainList"><a href="#">SOFTWARE UNIVERSITY</a>
+                                    <ul>
+                                        <li class="subList"><a href="#">About the university</a></li>
+                                        <li class="subList"><a href="#">Curriculum</a></li>
+                                        <li class="subList"><a href="#">Technical Trainers</a></li>
+                                        <li class="subList"><a href="#">Certificates</a></li>
+                                        <li class="subList"><a href="#">Diplomas</a></li>
+                                        <li class="subList"><a href="#">Fees and scholarships</a></li>
+                                        <li class="subList"><a href="#">How to apply</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mainList"><a href="#">ACTIVE TRAININGS</a>
+                                    <ul>
+                                        <li class="subList"><a href="#">Level 1</a></li>
+                                        <li class="subList"><a href="#">Level 2</a></li>
+                                        <li class="subList"><a href="#">Level 3</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mainList"><a href="#">JOBS</a></li>
+                                <li class="mainList"><a href="#">PARTNERS</a></li>
+                                <li class="mainList"><a href="#">FORUM</a></li>
+                                <li class="mainList"><a href="#">CONTACTS</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

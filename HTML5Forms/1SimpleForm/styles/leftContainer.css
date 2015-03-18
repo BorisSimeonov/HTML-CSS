@@ -1,0 +1,29 @@
+#leftContainer{
+    padding-left: 20px;
+    width: 270px;
+    float: left;
+}
+#leftContainer header{
+    margin-bottom: 5px;
+}
+#leftContainer input{
+    margin-bottom: 15px;
+    color: #b2b2ff;
+    border: 1px solid rgba(175, 175, 255, 0.62);
+}
+#leftContainer input:focus{
+    color: black;
+}
+#leftContainer button{
+    width: 125px;
+    height: 30px;
+    border: 2px solid #234465;
+    color: #234465;
+    float: right;
+    margin-right: 12px;
+    font-weight: bold;
+}
+#leftContainer button:hover{
+    color: white;
+    background-color: #234465;
+}

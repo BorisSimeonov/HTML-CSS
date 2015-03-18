@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(resources/Animated.ttf);
+    font-weight: bold;
+}
+body main{
+    width: 900px;
+    height: 600px;
+    background-color: #7cd4eb;
+    background-image: url(resources/HawaiiBackground.png); /* fallback */
+    background-image: url(resources/HawaiiBackground.png),
+    -webkit-radial-gradient(19% 20%, circle, white 1.5%, rgb(248, 255, 186) 8.5%, white 5%, #0b61ff 88%); /* Chrome 10+, Saf5.1+ */
+    background-image: url(resources/HawaiiBackground.png),
+    -moz-radial-gradient(19% 20%, circle, white 1.5%, rgb(248, 255, 186) 8.5%, white 5%, #0b61ff 88%); /* FF3.6+ */
+    background-image: url(resources/HawaiiBackground.png),
+    -o-radial-gradient(19% 20%, circle, white 1.5%, rgb(248, 255, 186) 8.5%, white 5%, #0b61ff 88%);
+}
+#imgLayer header
+{
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: #ffcc00;
+    text-align: right;
+    padding: 15px;
+}
+#vlado{
+    position: absolute;
+    z-index: 0;
+    left: 50px;
+    top: 230px;
+}
+#petia{
+    z-index: 1;
+    position: absolute;
+    left: 183px;
+    top: 201px;
+}
+#tedi{
+    z-index: 2;
+    position: absolute;
+    top: 375px;
+    left: 265px;
+}
+#nakov{
+    z-index: 0;
+    position: absolute;
+    left: 416px;
+    top: 167px;
+}
+#alex{
+    z-index: 1;
+    position: absolute;
+    left: 500px;
+    top: 214px;
+}
+#vladoK{
+    z-index: 0;
+    position: absolute;
+    left: 680px;
+    top: 243px;
+}

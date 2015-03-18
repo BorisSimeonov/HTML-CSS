@@ -1,0 +1,12 @@
+#WPLogo{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+input{
+    height: 20px;
+    margin-right: 2px;
+    border: 1px rgba(100, 149, 237, 0.73) solid;
+}
+footer{
+    margin-top: 20px;
+}

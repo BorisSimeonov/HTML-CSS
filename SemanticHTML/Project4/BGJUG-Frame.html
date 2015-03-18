@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>BGJUG</title>
+    <link rel="stylesheet" href="bgjug.css"/>
+</head>
+<body>
+    <header id="header">
+        <h1>BGJUG - Bulgarian Java User Group</h1>
+        <nav id="navigationMenu">
+            <div class="menuItem">ABOUT</div>
+            <div class="menuItem">EVENTS</div>
+            <div class="menuItem">CONTACTS</div>
+            <div class="search"><input type="text" value="Search" maxlength="22"/></div>
+        </nav>
+    </header>
+    <main id="mainContainer">
+        <nav id="ArticleMenu">
+            <ul>
+                <li><a href="#">An Architecture for E-Voting</a></li>
+                <li><a href="#">Integration Tests for External Services</a></li>
+                <li><a href="#">Algorithmic Music Influenced by Tweets</a></li>
+                <li><a href="#">The Low Quality of Scientific Code</a></li>
+                <li><a href="#">Development "Methodologies"</a></li>
+            </ul>
+        </nav>
+        <section id="articleHolder">
+            <article class="ArticleItem">
+                <header>
+                    <h2>An Architecture for E-Voting</h2>
+                    <footer>By   BOZHO     on     MAY   27 , 2014     LEAVE   A   COMMENT</footer>
+                </header>
+                <main>
+                    E-voting is a hot topic in my country, and has been discussed a lot everywhere.
+                    Since we are already using the internet and touch-screen technologies in our everyday
+                    lives, why not apply that to voting? And not for the sake of technology itself, but in
+                    order to prevent technical mistakes and election fraud, and make it easier for citizens
+                    to cast their vote and make the elections generally cheaper.
+                </main>
+                <footer>
+                    <a href="#">Continue Reading --></a>
+                </footer>
+            </article>
+            <article class="ArticleItem">
+                <header>
+                    <h2>The Optional Type API</h2>
+                    <footer>By   BOZHO     on     MAY   19 , 2014     LEAVE   A   COMMENT</footer>
+                </header>
+                <main>
+                    <p>Java 8 introduces the Optional class. In a nutshell, instead of returning null,
+                    and then checking for null, you return an Optional instance, which can either have
+                    or not have a value set. That way you don’t fail with NullPointerException.</p>
+                    <p>I won’t discuss whether the Optional type will eliminate NPEs completely (it won’t).
+                    Instead I’ll discuss things from a different perspective – API design. In addition
+                    to Java’s Optional, I’ll show guava’s Optional and scala’s Option, and compare them.</p>
+                </main>
+                <footer>
+                    <a href="#">Continue Reading --></a>
+                </footer>
+            </article>
+        </section>
+        <aside id="rightMenu">
+            <section>
+                <header>Language</header>
+                <select>
+                    <option value="bg">Bulgarian</option>
+                    <option value="en">English</option>
+                </select>
+            </section>
+            <section>
+                <header>BLOGROLL</header>
+            </section>
+        </aside>
+    </main>
+<footer id="pageFooter">
+<header>
+    <img src="images/twitter.jpg" alt=""/> Set your Twitter account name in your settings to use the
+    TwitterBar Section.
+</header>
+    <main id="pageFooterMain">
+        <section class="footerSections">
+            BGJUG - Java Bulgarian User Group
+        </section>
+        <section class="footerSections">
+            PAGES<br>
+            About<br>
+            Events<br>
+            Contacts<br>
+        </section>
+        <section class="footerSections">
+            The Lastest<br>
+            An Architecture for E-Voting<br>
+            <span>The Optional Type API</span><br>
+        </section>
+        <section class="footerSections">
+            More<br>
+            <span>Thanks for dropping by! Feel free to join the discussion by
+            leaving comments, and stay updated by subscribing to the</span> RSS.
+        </section>
+        <section class="footerSections">
+           © 2011 BGJUG - Java Bulgarian User Group
+        </section>
+    </main>
+</footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body{
+    min-width: 800px;
+    background-color: #3b5997;
+}
+#mainContainer{
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    height: 700px;
+}
+#mainHeader{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#subHead{
+    font-weight: bold;
+    font-size: 35px;
+}
+#subHeadTwo{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* End of header section */
+#leftContainer, #rightContainer{
+    margin-top: 50px;
+    height: 500px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#rightContainer{
+    float: right;
+    margin-right: 10px;
+    width: 55%;
+}
+#leftContainer{
+    float: left;
+    width: 40%;
+}
+.smallText{
+    display: inline-block;
+    width: 45%;
+}
+.thirdText{
+    display: inline-block;
+    width: 30%;
+}
+.color{
+    height: 30px;
+    width: 31%;
+    vertical-align: bottom;
+}
+.smallest{
+    display: inline-block;
+    width: 12%;
+}
+.rightSelect{
+    height: 30px;
+    border-radius: 4px;
+    width: 31%;
+}
+#leftContainer fieldset, #rightContainer fieldset{
+    border-radius: 25px;
+    height: 300px;
+}
+input{
+    border-radius: 4px;
+    height: 25px;
+    color: #b2b2ff;
+}
+input:focus{
+    color: black;
+}
+div{
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 10px;
+}
+#bday{
+    width: 65%;
+}
+
+#clearBtn{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border-radius: 20px;
+    color: #3b5997;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+#registerBtn{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border-radius: 20px;
+    color: #3b5997;
+    background-color: #dddddd;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+#txtArea{
+    resize: none;
+    width: 98%;
+    color: #b2b2ff;
+}
+#txtArea:focus{
+    color: black;
+}

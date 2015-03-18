@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Magic Cars</title>
+    <style>
+        #carChanger{
+            width: 700px;
+            height: 300px;
+            text-align: center;
+            color: goldenrod;
+            font-family: Tahoma, sans-serif;
+            background: rgb(240,183,161); /* Old browsers */
+            background: -moz-linear-gradient(-45deg, rgb(0, 0, 0) 0%, rgba(0,0,0,0.65) 23%, rgba(0,0,0,0.01) 99%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgb(0, 0, 0)), color-stop(23%,rgba(0,0,0,0.65)), color-stop(99%,rgba(0,0,0,0.01)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(-45deg, rgb(0, 0, 0) 0%,rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(-45deg, rgb(0, 0, 0) 0%,rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(-45deg, rgb(0, 0, 0) 0%,rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* IE10+ */
+            background: linear-gradient(135deg, rgb(0, 0, 0) 0%,rgba(0,0,0,0.65) 23%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* W3C */
+            border-radius: 20px;
+            padding: 15px;
+            border: 10px red outset;
+        }
+        h1{
+            border: solid 3px red;
+            width: 100%;
+            border-top-left-radius: 100% 90% ;
+            border-bottom-right-radius: 100% 90% ;
+            background: darkred;
+            color: whitesmoke;
+        }
+        #images{
+            padding: 1px;
+            margin: 0px;
+        }
+        #imgNavigation{
+            float: left;
+            height: 95%;
+            text-align: left;
+        }
+        #imgNavigation a:link{
+            text-decoration: none;
+            color: darkred;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: white;
+            border-radius: 25px;
+            padding: 7px;
+            background-color: dimgray;
+            background: -webkit-linear-gradient(right, dimgray, orangered , darkred); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, dimgray, orangered , darkred); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, dimgray, orangered , darkred); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(right, dimgray, orangered , darkred); /* Standard syntax (must be last) */
+            border: solid 3px red;
+        }
+        #imgNavigation li{
+            list-style-type: none;
+            text-align: left;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        section main{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<section id="carChanger">
+    <header>
+        <h1>Magic Car Gallery</h1>
+    </header>
+    <main>
+        <iframe width="300" height="200" scrolling="no" src="images/fordMustang.jpg" id="images" name="frameName"
+                frameborder="0">
+        </iframe>
+    </main>
+    <nav id="imgNavigation">
+        <ul>
+            <li><a href="images/fordMustang.jpg" target="frameName">Ford Mustang</a></li>
+            <li><a href="images/bmwM5.jpg" target="frameName">BMW M5</a></li>
+            <li><a href="images/porschePanamera.jpg" target="frameName">Porsche Panamera</a></li>
+            <li><a href="images/AudiRS5.jpg" target="frameName">Audi RS5</a></li>
+            <li><a href="images/c63_600n-620x414.jpg" target="frameName">Mercedes-Benz C63 AMG</a></li>
+        </ul>
+    </nav>
+</section>
+</body>
+</html>

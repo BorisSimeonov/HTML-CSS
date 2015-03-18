@@ -1,0 +1,43 @@
+#rightContainer{
+    width: 300px;
+    float: right;
+    background-color: #234465;
+    color: white;
+    padding-left: 10px;
+    height: 273px;
+}
+#rightContainer header{
+    margin-bottom: 10px;
+}
+#containerSection{
+    display: inline-block;
+}
+#rightContainer input{
+
+     border: 2px solid #234465;
+    color: #b2b2ff;
+     margin-bottom: 10px;
+ }
+#rightContainer input:focus{
+    color: #234465;
+}
+#rightContainer button{
+    float: right;
+    width: 125px;
+    height: 35px;
+    background-color: #234465;
+    margin-right: 11px;
+    border: 2px solid goldenrod;
+    color: white;
+    font-weight: bold;
+}
+#rightContainer button:hover{
+    color: gold;
+}
+#rightContainer button, input{
+    display: inline-block;
+}
+#btnDiv{
+    padding-bottom: 10px;
+    height: 40px;
+}

@@ -1,0 +1,204 @@
+body{
+    background-image: url('../images/background-flowers.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#wrapper{
+    min-width: 780px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#wrapper > header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: rgba(255, 255, 255, 0.56);
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    order: 0;
+}
+#wrapper header span{
+    color: black;
+}
+
+#wrapper > header img{
+    width: 200px;
+}
+header > h1{
+    order: 1;
+    margin: 0px;
+    padding: 0px;
+}
+header > h1 > a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > nav{
+    order: 2;
+}
+header > nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0px;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 0px;
+    padding-top: 25px;
+}
+header > nav ul li a{
+    display: block;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: white;
+}
+header > nav li{
+    width: 100px;
+    height: 30px;
+    background-color: #eb2a7b;
+    border: 1px solid black;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.left, .right, section{
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.56);
+    padding: 20px;
+    border: 1px solid black;
+ }
+ul li{
+    list-style-type: none;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+.left, .right{
+    width: 19%;
+    height: 400px;
+}
+section{
+    width: 60%;
+    order: 1;
+    align-content: center;
+}
+.left{
+    order: 0;
+    margin-right: 1%;
+}
+.right{
+    order: 2;
+    margin-left: 5px;
+    text-align: left;
+}
+
+section img{
+    width: 130px;
+    margin-bottom: 5px;
+}
+section header h1{
+    padding: 5px;
+}
+section > article div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer{
+    order: 3;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.56);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+footer a{
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 780px){
+    #wrapper{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        min-width: 640px;
+    }
+    .left, .right, section{
+        width: 100%;
+        height: auto;
+    }
+    section{
+        order: 0;
+    }
+    section img{
+        width: 30%;
+    }
+    .left{
+        order: 1;
+        font-size: 0.8em;
+    }
+    .right{
+        font-size: 0.8em;
+        margin-left: 0px;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+    header nav ul li{
+        width: 23%;
+        margin: 0px;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #wrapper{
+        min-width: 300px;
+    }
+    header h1 a{
+        display: flex;
+        flex-direction: column;
+    }
+    #wrapper header img{
+        width: 60%;
+        align-self: center;
+    }
+    #wrapper header span{
+        width: 100%;
+        text-align: center;
+    }
+    header > nav ul{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    header > nav ul li{
+        width: 80%;
+        align-self: center;
+    }
+    section img{
+        width: 49%;
+    }
+    .left, .right, footer{
+        font-size: 0.7em;
+    }
+}

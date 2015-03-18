@@ -1,0 +1,65 @@
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    height: 400px;
+    width: 1200px;
+    font-family: Tahoma, sans-serif;
+}
+#kentProfileBar{
+    width: 100%;
+    height: 100%;
+    background-color: #e6cea7;
+    border-radius: 15px;
+    border: double #92ff00 5px;
+}
+#ProfHead{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1%;
+    text-align: center;
+}
+#KentSection, #AudioSection, #VideoSection{
+    float: left;
+    font-size: 22px;
+}
+#KentSection{
+    margin-left: 1%;
+}
+#KentSection main img{
+    width: 225px;
+    height: 195px;
+    border: double #92ff00 5px;
+}
+#AudioSection, #KentSection{
+    width: 25%;
+    padding-left: 1%;
+    height: 350px;
+}
+#VideoSection{
+    width: 44%;
+    height: 350px;
+    padding-left: 1%;
+}
+audio{
+    background: #92ff00;
+    height: 40px;
+    width: 90%;
+}
+.firstAudio{
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+.lastAudio{
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+iframe{
+    width: 500px;
+    height: 300px;
+    border: double #92ff00 5px;
+}
+figure{
+    margin: 0px;
+    padding: 0px;
+}

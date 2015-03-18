@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="forder.css"/>
+</head>
+<body>
+<section id="mainContainer">
+    <header>
+        Flight Order
+    </header>
+    <main>
+        <section id="leftSection">
+            <div>
+                From:<br>
+                <select class="selectItem">
+                    <option selected="selected">Enter a City</option>
+                    <option>Sofia</option>
+                    <option>Plovdiv</option>
+                    <option>Varna</option>
+                </select>
+            </div>
+            <div>
+                Departure date<br>
+                <input type="date" value="09.06.2014"/>
+            </div>
+            <div>
+                Departure date<br>
+                <input type="date" value="13.06.2014"/>
+            </div>
+            <section>
+                <dvi class="leftMiniFields">
+                    12+<br>
+                    <input type="number" min="0" max="12" step="1" value="0" name="name"/>
+                </dvi>
+                <dvi class="leftMiniFields">
+                    2-12<br>
+                    <input type="text"/>
+                </dvi>
+                <dvi class="leftMiniFields">
+                    0-2<br>
+                    <input type="text"/>
+                </dvi>
+            </section>
+        </section>
+        <section id="rightSection">
+            <div>
+                From:<br>
+                <select class="selectItem">
+                    <option selected="selected">Enter a City</option>
+                    <option>Sofia</option>
+                    <option>Plovdiv</option>
+                    <option>Varna</option>
+                </select>
+            </div>
+            <div>
+                Time Interval<br>
+                <input type="time" value="00:20"/>
+                <input type="time" value="05:00"/>
+            </div>
+            <div>
+                Time Interval<br>
+                <input type="time" value="16:00"/>
+                <input type="time" value="22:00"/>
+            </div>
+            <div>
+                Choose class<br>
+                <select class="selectItem">
+                    <option selected="selected">Economy</option>
+                    <option>Business</option>
+                    <option>Premium Economy</option>
+                    <option>First</option>
+                </select>
+            </div>
+            <div>
+                <button>Search</button>
+            </div>
+        </section>
+    </main>
+</section>
+
+</body>
+</html>

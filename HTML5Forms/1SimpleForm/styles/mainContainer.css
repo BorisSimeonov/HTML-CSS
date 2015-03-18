@@ -1,0 +1,43 @@
+h2{
+    margin-top: 0px;
+}
+#mainContainer{
+    padding: 10px;
+    background-color: #eeeeee;
+    width:600px;
+    color: dimgrey;
+}
+#mainContainer header{
+    margin-bottom: 20px;
+}
+.textField{
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+}
+h4{
+    margin-bottom: 0px;
+}
+.blueText{
+    color: #234465;
+}
+
+.smallText{
+    font-size: 14px;
+}
+.textFieldRight{
+    width: 280px;
+    height: 30px;
+    padding-left: 5px;
+}
+.underline{
+    text-decoration: underline;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-right: 11px;
+}
+.underline:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+#mainContainer{
+    background-color: #ffc0cb;
+    width: 540px;
+    height: 350px;
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+#mainContainer header{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+#leftSection, #rightSection{
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.selectItem, #leftSection input{
+    width: 90%;
+    height: 25px;
+}
+#mainContainer div{
+    margin-bottom: 10px;
+}
+.selectItem{
+    font-weight: bold;
+}
+#rightSection input{
+    width: 40%;
+    margin-right: 2px;
+    height: 25px;
+}
+#rightSection button{
+    width: 229px;
+    height: 35px;
+}
+.leftMiniFields{
+    width: 31%;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+}
+.leftMiniFields input{
+    height: 25px;
+    width: 80%;
+}

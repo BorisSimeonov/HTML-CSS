@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML Form Styling</title>
+    <link rel="stylesheet" href="styling.css"/>
+</head>
+<body>
+<main id="FormLayer">
+    <section class="box">
+        <header>
+            <p>Step 1: Your details</p>
+        </header>
+        <section>
+            Name:
+            <input type="text" placeholder="First and last name"/>
+        </section>
+        <section>
+            Email:
+            <input type="text" placeholder="example@domain.com"/>
+        </section>
+        <section>
+            Phone:
+            <input type="text" placeholder="eg. +447500000000"/>
+        </section>
+    </section>
+    <section class="textBox">
+        <header>
+            <p>Step 1: Delivery address</p>
+        </header>
+        <section class="textArea">
+            <div>Address:</div>
+            <textarea name="text" rows="5" maxlength="155"></textarea>
+        </section>
+        <section>
+            Post code:
+            <input type="text"/>
+        </section>
+        <section>
+            Country:
+            <input type="text"/>
+        </section>
+    </section>
+    <section class="cardBox">
+        <header>
+            <p>Step 1: Card details</p>
+        </header>
+        <section id="cardType">
+            Card type:
+            <div>
+                <input type="radio" name="editList" id="visa"/>
+                <label for="visa"><img src="images/visa.png" alt="No VISA image"/>VISA</label>
+                <input type="radio" name="editList" id="amex"/>
+                <label for="amex"><img src="images/amex.jpg" alt="No AmEx image"/>AmEx</label>
+                <input type="radio" name="editList" id="master"/>
+                <label for="master"><img src="images/master.jpg" alt="no MC image"/>Mastercard</label>
+            </div>
+        </section>
+        <section class="cardTInput">
+            Card number:
+            <input type="text"/>
+        </section>
+        <section class="cardTInput">
+            Security code:
+            <input type="text"/>
+        </section>
+        <section class="cardTInput">
+            Name on card:
+            <input type="text"/>
+        </section>
+    </section>
+    <section class="btnSection">
+        <button>BUY IT!</button>
+    </section>
+</main>
+</body>
+</html>

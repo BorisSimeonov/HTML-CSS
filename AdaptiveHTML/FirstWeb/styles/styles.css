@@ -1,0 +1,224 @@
+body{
+    background-color: #6698ff;
+    margin: 0px;
+    font-size: 20px;
+}
+#wrapper{
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    max-width: 960px;
+    min-width: 780px;
+}
+#wrapper > header{
+    text-align: left;
+}
+
+header a{
+    text-decoration: none;
+}
+header span{
+    color: white;
+    vertical-align: middle;
+}
+#wrapper header > nav, #wrapper header > h1{
+    display: block;
+}
+#wrapper > header > h1{
+    margin: 0px;
+    padding: 0px;
+}
+header img{
+    width: 300px;
+}
+h1{
+    font-size: 1.5em;
+    margin: 0px;
+}
+/*...................................................*/
+nav{
+    width: 100%;
+    height: 15px;
+    border-bottom: 1px solid black;
+}
+
+nav ul{
+    float: right;
+    margin: 0px;
+    margin-right: 2%;
+}
+nav li{
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+section{
+    margin-top: 15px;
+    display: inline-block;
+    width: 76%;
+}
+
+article {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    background-color: #e0eafe;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+p{
+    text-indent: 30px;
+    color: #000086;
+    font-size: 1em;
+}
+
+aside{
+    display: inline-block;
+    background-color: #e0eafe;
+    border: 1px solid black;
+    float: right;
+    margin: 15px 5px 0px 0px;
+    width: 21%;
+    font-size: 0.9em;
+}
+.block a{
+    text-decoration: none;
+    color: #000086;
+}
+.block{
+    list-style-type: none;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.news > div ul{
+    padding: 0px;
+    margin: 0px;
+}
+/*..................................*/
+footer{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background-color: #e0eafe;
+}
+h2{
+    font-size: 1.3em;
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 960px){
+    p{
+        font-size: 0.8em;
+    }
+
+    aside{
+        font-size: 0.8em;
+    }
+    header span{
+        vertical-align: 15px;
+    }
+    h2{
+        font-size: 1em;
+    }
+}
+
+
+
+@media screen and (max-width: 780px){
+    body{
+        margin-right: 5px;
+    }
+    #wrapper{
+        min-width: 340px;
+    }
+    section{
+        margin-top: 30px;
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    article {
+        width: 100%;
+        background-color: #e0eafe;
+    }
+    aside{
+        float: none;
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 5px;
+        box-sizing: border-box;
+        padding-bottom: 25px;
+    }
+    .block{
+        width: 20%;
+        margin-left: 2%;
+        display: inline-block;
+        text-align: center;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    nav li a{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #wrapper{
+        min-width: 300px;
+        padding-right: 5px;
+    }
+    header img{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header span{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    nav ul{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav ul li{
+        display: table;
+        width: 85%;
+        margin: 0px auto;
+    }
+    section{
+        margin-top: 140px;
+    }
+    .block{
+        display: block;
+        width: 100%;
+    }
+    aside{
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,103 @@
+body{
+    background-image: url("images/colorful_dots_on_black.jpg");
+    font-family: Tahoma, sans-serif;
+    margin: 0px;
+}
+body > header{
+    background: rgba(255,71,71,1);
+    background: -moz-linear-gradient(left, rgba(255,71,71,1) 0%, rgba(47,255,5,1) 50%, rgba(0,0,230,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,71,71,1)), color-stop(50%, rgba(47,255,5,1)), color-stop(100%, rgba(0,0,230,1)));
+    background: -webkit-linear-gradient(left, rgba(255,71,71,1) 0%, rgba(47,255,5,1) 50%, rgba(0,0,230,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,71,71,1) 0%, rgba(47,255,5,1) 50%, rgba(0,0,230,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,71,71,1) 0%, rgba(47,255,5,1) 50%, rgba(0,0,230,1) 100%);
+    background: linear-gradient(to right, rgba(255,71,71,1) 0%, rgba(47,255,5,1) 50%, rgba(0,0,230,1) 100%);
+
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+aside{
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.94);
+    position: fixed;
+    left: 5px;
+    top: 100px;
+    padding-left: 18px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    padding-top: 22px;
+    border-radius: 25px;
+}
+aside header{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+aside li{
+    list-style-image: url("images/Tick.jpg");
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: silver;
+    text-decoration: none;
+}
+section > article{
+    top: 100px;
+}
+article{
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 25px;
+    position: relative;
+    top: 10px;
+}
+article a:link{
+    text-decoration: underline;
+}
+article header{
+    font-size: 26px;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 10px;
+}
+#webColors{
+    background-color: red;
+    color: white;
+}
+#webSafeColors{
+    background-color: orange;
+}
+#RGB{
+    background-color: yellow;
+}
+#RGBA{
+    color: white;
+    background-color: green;
+}
+#HSLHSV {
+    color: white;
+    background-color: #4921c1;
+}
+#lorem {
+    color: white;
+    background-color: #9800a7;
+}
+article div::first-letter{
+    font-size: 55px;
+}
+span:lang(la){
+    font-style: italic;
+    color: #5b0291;
+}

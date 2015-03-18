@@ -1,0 +1,99 @@
+.navbar{
+    background-color: darkgreen;
+    position: relative;
+}
+.nav li:hover{
+    background-color: lime;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #000000;
+}
+.navbar-inverse .navbar-brand{
+    color: #000000;
+}
+.jumbotron{
+    width: 60%;
+    margin-left: 7%;
+    border-radius: 5px;
+}
+.navbar-right{
+    margin-right: 2%;
+    width: 25%;
+    float: right;
+}
+
+a.list-group-item:hover, a.list-group-item:focus{
+    background-color: lime;
+}
+
+section{
+    display: flex;
+    align-content: space-between;
+}
+section article{
+    width: 31%;
+    margin: 10px;
+}
+.panel, .panel header{
+    border: none;
+}
+.btn-info, .btn-info:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+footer{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .navbar-inverse .navbar-nav > li > a{
+        text-align: center;
+    }
+    .navbar-brand{
+        width: 100%;
+    }
+    .navbar-inverse .navbar-brand{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    #wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-right{
+        margin-right: 0px;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    main{
+        order: 0;
+    }
+    aside{
+        order: 1;
+    }
+    section{
+        flex-direction: column;
+        align-content: space-between;
+    }
+    section article{
+        width: 96%;
+        margin: 10px auto;
+    }
+    footer{
+        order: 3;
+    }
+    .jumbotron{
+        width: 96%;
+        margin-left:0px;
+        border-radius: 5px;
+        margin: 0px auto;
+    }
+}

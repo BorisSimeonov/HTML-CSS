@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* --------------- header part ------------------ */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+body{
+    background-color: #50247d;
+}
+#wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+#headerBox{
+    background-image: url("resources/orion-gas-and-star-bgr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #36a4d7;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.mainTitle{
+    padding-top: 20px;
+    font-size: 68px;
+    color: white;
+    box-sizing: border-box;
+    font-family: "Oleo Script";
+}
+.subTitle{
+font-size: 26px;
+}
+#navMenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+#navMenu ul li{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #50247d;
+    background-color: white;
+    margin: 0px 15px 20px;
+}
+#navMenu ul li a{
+    color: #50247d;
+    font-weight: bold;
+}
+/* ----------------------------------- main part */
+#mainContent{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #eae7ee;
+    margin-top: 30px;
+    border-top: 10px solid #865ab3;
+    border-bottom: 10px solid #36a4d7;
+}
+.leftSec , .rightSec{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+.leftSec{
+    background-color: white;
+}
+.leftSec h1{
+    font-size: 48px;
+    font-family: "Oleo Script";
+}
+.leftSec h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.rMore{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    padding: 5px;
+    background-color: #36a4d7;
+}
+.leftSec p{
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+.leftSec p span{
+    font-family: "Oleo Script";
+}
+.wallpaper{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    padding: 5px;
+    background-color: #4f257b;
+}
+
+/* ---------------------right main side */
+.rightSec{
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rArticleBox{
+    background-color: white;
+    position: relative;
+    width: 48%;
+    height: 48%;
+}
+.rArticleBox:nth-child(3),  .rArticleBox:nth-child(4){
+    align-self: flex-end;
+}
+
+.rArticleBox img{
+    width: 100%;
+}
+.rArticleBox h2{
+    color: #36a4d7;
+    font-size: 26px;
+}
+.artText{
+    padding: 10px;
+}
+/* ------------------------- footer */
+footer{
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+
+/* --------------------- actions */
+#navMenu ul li:hover{
+    cursor: pointer;
+    background-color: #36a4d7;
+}
+#navMenu ul li:hover > a{
+    color: white;
+}
